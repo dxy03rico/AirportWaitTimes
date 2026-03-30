@@ -1,0 +1,44 @@
+name: AirportWaitTimes
+options:
+  bundleIdPrefix: com.airportwaittimes
+  deploymentTarget:
+    iOS: "17.0"
+  xcodeVersion: "15.0"
+
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    GENERATE_INFOPLIST_FILE: false
+    INFOPLIST_FILE: AirportWaitTimes/Info.plist
+
+packages:
+  GoogleSignIn:
+    url: https://github.com/google/GoogleSignIn-iOS
+    from: "8.0.0"
+
+targets:
+  AirportWaitTimes:
+    type: application
+    platform: iOS
+    sources:
+      - path: AirportWaitTimes
+        excludes:
+          - "*.entitlements"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.airportwaittimes.app
+        MARKETING_VERSION: "1.0.0"
+        CURRENT_PROJECT_VERSION: 1
+        DEVELOPMENT_TEAM: ""
+        CODE_SIGN_ENTITLEMENTS: AirportWaitTimes/AirportWaitTimes.entitlements
+        CODE_SIGN_STYLE: Automatic
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+    dependencies:
+      - package: GoogleSignIn
+        product: GoogleSignIn
+      - package: GoogleSignIn
+        product: GoogleSignInSwift
+      - sdk: StoreKit.framework
+    entitlements:
+      path: AirportWaitTimes/AirportWaitTimes.entitlements

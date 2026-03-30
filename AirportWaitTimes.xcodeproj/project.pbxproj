@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B3D0FEB56330EB9971DD5B9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700BFAACB40793EDE7C61677 /* LoginView.swift */; };
+		0DC211E8627EBDEE5F5FE1C9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846ED8F81B2DB3FA6DECF9E2 /* ProfileView.swift */; };
+		114C32ADCB217DF66DA9A3EC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADBE421E92CE8B5D9C88AA4 /* User.swift */; };
+		176F90550A4CA085949E9446 /* AirportListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD91CE0297ADC7CEDA773D0 /* AirportListView.swift */; };
+		2853816C96260E7C9674CC38 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134DC6329514C6FFA0F95612 /* ColorExtension.swift */; };
+		2A0E332144DAFB7D4D352AA0 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518951896A72A30BCD9962D1 /* RootView.swift */; };
+		35D624F941842979F3A892C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A35CCCDEDF10DAB646A2CB38 /* Assets.xcassets */; };
+		38B96EF6FC9DB6A49EE3D3C8 /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3704DA4C35ED14B794A1900A /* StoreManager.swift */; };
+		50EF7DC1878BE0FA110B397B /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 042D8325F995568F50200843 /* GoogleSignInSwift */; };
+		61CFED1E23175FB0542AAECB /* ReportWaitTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDC36A47730B4721B96D866 /* ReportWaitTimeView.swift */; };
+		796AFB88956AF31A9ADEE61F /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7378DD571E0AE7E9DAB444EC /* PaywallView.swift */; };
+		7B72B43B0306C53C3BDCC6B8 /* AirportCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93134388F484E610C94F7BC2 /* AirportCardView.swift */; };
+		87CF0444484C67790CE2871A /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68476FC3857D2EE13DDB257 /* AuthManager.swift */; };
+		8F817EC8461AA8F5CA18DA39 /* AirportListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0870B19CDCBA7856FDCCBCE2 /* AirportListViewModel.swift */; };
+		B479C4033E4FA0399CDD8F34 /* AirportDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA600ECAEB9ECB655A3D79D /* AirportDetailView.swift */; };
+		BE853AFA4E6B040D3ED6FD65 /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94251D9C0E8F93930A0C301B /* Airport.swift */; };
+		CC4F81262E934781FCD86840 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8DE6F18DBF3B1982AEE3D3 /* APIService.swift */; };
+		E115DD6C94BF00D1E11E8BD8 /* AirportWaitTimesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFBD227996A7A22E090EE33 /* AirportWaitTimesApp.swift */; };
+		E5F941116DCCA7C5B4B68810 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B33C124382AFC98ACF75FC /* MainTabView.swift */; };
+		E7D6B9C3C3E635BEB200A0B8 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = D87D7DD2712AAF4997E5EAEA /* GoogleSignIn */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0870B19CDCBA7856FDCCBCE2 /* AirportListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportListViewModel.swift; sourceTree = "<group>"; };
+		134DC6329514C6FFA0F95612 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		1DD91CE0297ADC7CEDA773D0 /* AirportListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportListView.swift; sourceTree = "<group>"; };
+		20B33C124382AFC98ACF75FC /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		3704DA4C35ED14B794A1900A /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
+		3AFBD227996A7A22E090EE33 /* AirportWaitTimesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportWaitTimesApp.swift; sourceTree = "<group>"; };
+		4ADBE421E92CE8B5D9C88AA4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4BDC36A47730B4721B96D866 /* ReportWaitTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportWaitTimeView.swift; sourceTree = "<group>"; };
+		518951896A72A30BCD9962D1 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		5E8DE6F18DBF3B1982AEE3D3 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		700BFAACB40793EDE7C61677 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7378DD571E0AE7E9DAB444EC /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		831A4C119C70389BF48F1498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		846ED8F81B2DB3FA6DECF9E2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		93134388F484E610C94F7BC2 /* AirportCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportCardView.swift; sourceTree = "<group>"; };
+		94251D9C0E8F93930A0C301B /* Airport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airport.swift; sourceTree = "<group>"; };
+		A35CCCDEDF10DAB646A2CB38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADA600ECAEB9ECB655A3D79D /* AirportDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportDetailView.swift; sourceTree = "<group>"; };
+		C68476FC3857D2EE13DDB257 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		C9A11D0D0FB1CF0EAB327955 /* AirportWaitTimes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirportWaitTimes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E41D6333C13C5D6915AD280F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D6B9C3C3E635BEB200A0B8 /* GoogleSignIn in Frameworks */,
+				50EF7DC1878BE0FA110B397B /* GoogleSignInSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D5C0266024B9DC8EEA0CC37 /* AirportWaitTimes */ = {
+			isa = PBXGroup;
+			children = (
+				3AFBD227996A7A22E090EE33 /* AirportWaitTimesApp.swift */,
+				A35CCCDEDF10DAB646A2CB38 /* Assets.xcassets */,
+				831A4C119C70389BF48F1498 /* Info.plist */,
+				5E4779D4F355A182A94B819A /* Helpers */,
+				9C9BCB1D550C60517F24A4D5 /* Models */,
+				3B95744A3A829152B9043B12 /* Services */,
+				CA069CEE722BE90AF591B8DA /* Views */,
+			);
+			path = AirportWaitTimes;
+			sourceTree = "<group>";
+		};
+		3B95744A3A829152B9043B12 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0870B19CDCBA7856FDCCBCE2 /* AirportListViewModel.swift */,
+				5E8DE6F18DBF3B1982AEE3D3 /* APIService.swift */,
+				C68476FC3857D2EE13DDB257 /* AuthManager.swift */,
+				3704DA4C35ED14B794A1900A /* StoreManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3C52A988278BD42AD8CCA624 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9A11D0D0FB1CF0EAB327955 /* AirportWaitTimes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50ECFD7FF9EB3E363FEA1DCA = {
+			isa = PBXGroup;
+			children = (
+				2D5C0266024B9DC8EEA0CC37 /* AirportWaitTimes */,
+				C671613774C9B2A3F9583126 /* Frameworks */,
+				3C52A988278BD42AD8CCA624 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E4779D4F355A182A94B819A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				134DC6329514C6FFA0F95612 /* ColorExtension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9C9BCB1D550C60517F24A4D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				94251D9C0E8F93930A0C301B /* Airport.swift */,
+				4ADBE421E92CE8B5D9C88AA4 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C671613774C9B2A3F9583126 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA069CEE722BE90AF591B8DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				93134388F484E610C94F7BC2 /* AirportCardView.swift */,
+				ADA600ECAEB9ECB655A3D79D /* AirportDetailView.swift */,
+				1DD91CE0297ADC7CEDA773D0 /* AirportListView.swift */,
+				700BFAACB40793EDE7C61677 /* LoginView.swift */,
+				20B33C124382AFC98ACF75FC /* MainTabView.swift */,
+				7378DD571E0AE7E9DAB444EC /* PaywallView.swift */,
+				846ED8F81B2DB3FA6DECF9E2 /* ProfileView.swift */,
+				4BDC36A47730B4721B96D866 /* ReportWaitTimeView.swift */,
+				518951896A72A30BCD9962D1 /* RootView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A95FC58C3A93363A31CDD5EF /* AirportWaitTimes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0562BAB16B28D3A40FDC507C /* Build configuration list for PBXNativeTarget "AirportWaitTimes" */;
+			buildPhases = (
+				E842B90BFEF5ADD2DC318D1A /* Sources */,
+				9E5FBCF6454F5C33C877C250 /* Resources */,
+				E41D6333C13C5D6915AD280F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirportWaitTimes;
+			packageProductDependencies = (
+				D87D7DD2712AAF4997E5EAEA /* GoogleSignIn */,
+				042D8325F995568F50200843 /* GoogleSignInSwift */,
+			);
+			productName = AirportWaitTimes;
+			productReference = C9A11D0D0FB1CF0EAB327955 /* AirportWaitTimes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFF054D5D783C5393C2D968D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A95FC58C3A93363A31CDD5EF = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B4EC6D7B1A28E1758B2F9A0A /* Build configuration list for PBXProject "AirportWaitTimes" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 50ECFD7FF9EB3E363FEA1DCA;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				772400C473020709CB640A4C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3C52A988278BD42AD8CCA624 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A95FC58C3A93363A31CDD5EF /* AirportWaitTimes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E5FBCF6454F5C33C877C250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D624F941842979F3A892C8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E842B90BFEF5ADD2DC318D1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4F81262E934781FCD86840 /* APIService.swift in Sources */,
+				BE853AFA4E6B040D3ED6FD65 /* Airport.swift in Sources */,
+				7B72B43B0306C53C3BDCC6B8 /* AirportCardView.swift in Sources */,
+				B479C4033E4FA0399CDD8F34 /* AirportDetailView.swift in Sources */,
+				176F90550A4CA085949E9446 /* AirportListView.swift in Sources */,
+				8F817EC8461AA8F5CA18DA39 /* AirportListViewModel.swift in Sources */,
+				E115DD6C94BF00D1E11E8BD8 /* AirportWaitTimesApp.swift in Sources */,
+				87CF0444484C67790CE2871A /* AuthManager.swift in Sources */,
+				2853816C96260E7C9674CC38 /* ColorExtension.swift in Sources */,
+				0B3D0FEB56330EB9971DD5B9 /* LoginView.swift in Sources */,
+				E5F941116DCCA7C5B4B68810 /* MainTabView.swift in Sources */,
+				796AFB88956AF31A9ADEE61F /* PaywallView.swift in Sources */,
+				0DC211E8627EBDEE5F5FE1C9 /* ProfileView.swift in Sources */,
+				61CFED1E23175FB0542AAECB /* ReportWaitTimeView.swift in Sources */,
+				2A0E332144DAFB7D4D352AA0 /* RootView.swift in Sources */,
+				38B96EF6FC9DB6A49EE3D3C8 /* StoreManager.swift in Sources */,
+				114C32ADCB217DF66DA9A3EC /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		06DB2B5D7B5CEB133187B4B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AirportWaitTimes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		09D54859E06DF942A04A70E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AirportWaitTimes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		5655D808F96001DD71C33AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AirportWaitTimes/AirportWaitTimes.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AXMV5FF45M;
+				INFOPLIST_FILE = AirportWaitTimes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.airportwaittimes.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB65BA6516B614153FC57768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AirportWaitTimes/AirportWaitTimes.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AXMV5FF45M;
+				INFOPLIST_FILE = AirportWaitTimes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.airportwaittimes.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0562BAB16B28D3A40FDC507C /* Build configuration list for PBXNativeTarget "AirportWaitTimes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB65BA6516B614153FC57768 /* Debug */,
+				5655D808F96001DD71C33AE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B4EC6D7B1A28E1758B2F9A0A /* Build configuration list for PBXProject "AirportWaitTimes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06DB2B5D7B5CEB133187B4B4 /* Debug */,
+				09D54859E06DF942A04A70E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		772400C473020709CB640A4C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		042D8325F995568F50200843 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 772400C473020709CB640A4C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		D87D7DD2712AAF4997E5EAEA /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 772400C473020709CB640A4C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CFF054D5D783C5393C2D968D /* Project object */;
+}
